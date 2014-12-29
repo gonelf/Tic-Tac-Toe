@@ -13,6 +13,9 @@
 		4B51BDF31A459DCE00B16AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BDF21A459DCE00B16AF5 /* Images.xcassets */; };
 		4B51BDF61A459DCE00B16AF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BDF41A459DCE00B16AF5 /* LaunchScreen.xib */; };
 		4B51BE021A459DCE00B16AF5 /* tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BE011A459DCE00B16AF5 /* tic_tac_toeTests.swift */; };
+		4B51BE0E1A45A02300B16AF5 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BE0B1A45A02300B16AF5 /* board.png */; };
+		4B51BE0F1A45A02300B16AF5 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BE0C1A45A02300B16AF5 /* cross.png */; };
+		4B51BE101A45A02300B16AF5 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BE0D1A45A02300B16AF5 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		4B51BDFB1A459DCE00B16AF5 /* tic tac toeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B51BE001A459DCE00B16AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B51BE011A459DCE00B16AF5 /* tic_tac_toeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeTests.swift; sourceTree = "<group>"; };
+		4B51BE0B1A45A02300B16AF5 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		4B51BE0C1A45A02300B16AF5 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		4B51BE0D1A45A02300B16AF5 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				4B51BDEB1A459DCE00B16AF5 /* AppDelegate.swift */,
 				4B51BDED1A459DCE00B16AF5 /* ViewController.swift */,
 				4B51BDEF1A459DCE00B16AF5 /* Main.storyboard */,
+				4B51BE0B1A45A02300B16AF5 /* board.png */,
+				4B51BE0C1A45A02300B16AF5 /* cross.png */,
+				4B51BE0D1A45A02300B16AF5 /* nought.png */,
 				4B51BDF21A459DCE00B16AF5 /* Images.xcassets */,
 				4B51BDF41A459DCE00B16AF5 /* LaunchScreen.xib */,
 				4B51BDE91A459DCE00B16AF5 /* Supporting Files */,
@@ -192,6 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B51BE0F1A45A02300B16AF5 /* cross.png in Resources */,
+				4B51BE0E1A45A02300B16AF5 /* board.png in Resources */,
+				4B51BE101A45A02300B16AF5 /* nought.png in Resources */,
 				4B51BDF11A459DCE00B16AF5 /* Main.storyboard in Resources */,
 				4B51BDF61A459DCE00B16AF5 /* LaunchScreen.xib in Resources */,
 				4B51BDF31A459DCE00B16AF5 /* Images.xcassets in Resources */,
@@ -341,6 +353,7 @@
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +364,7 @@
 				INFOPLIST_FILE = "tic tac toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
